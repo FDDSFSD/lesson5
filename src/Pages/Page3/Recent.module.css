@@ -1,0 +1,20 @@
+.sp{
+    width: 96px;
+    border: 2px solid #699D06
+}
+.rec{
+    text-align: center;
+    font-size: 40px;
+}
+.uli{
+   display: flex;
+}
+.dv{
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+.Im{
+    width: 350px;
+    height: 400px;
+}

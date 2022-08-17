@@ -1,0 +1,11 @@
+.Ft{
+    display: flex;
+    justify-content: space-between
+}
+.Fdiv{
+    display: flex;
+    justify-content: center
+}
+.Fdiv1{
+    text-align: center;
+}

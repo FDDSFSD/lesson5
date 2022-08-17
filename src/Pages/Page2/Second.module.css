@@ -1,0 +1,9 @@
+.images{
+ width: 80px;
+ height: 75px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
