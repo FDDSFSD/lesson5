@@ -10,7 +10,10 @@ export const H2 =styled.h2`
 `
 export const Bt=styled.button`
   background: #699D06;
-  border-radius: 4px
+  border-radius: 4px;
+  font-size: 20px;
+    padding: 14px 28px;
+    color: white
 `
 export const P1=styled.p`
   font-size: 20px;
@@ -57,4 +60,4 @@ export const RecDiv1=styled.div`
    display: flex;
    justify-content: space-between;
 `
-gap: 30p
+// gap: 30p

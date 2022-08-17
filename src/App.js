@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import Summer from './Pages/Page1/Summer';
-import Second from './Pages/Page2/Second';
-import Recent from './Pages/Page3/Recent';
-import Best from './Pages/Page4/Best';
-import Footer from './Footer/Footer';
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Layout from "./Layout/Layout";
+import Page from "./Pages/Page";
+import Summer from "./Pages/Page1/Summer";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Summer/>
-      <Second/>
-      <Recent/>
-      <Best/>
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index path='/' element={<Page />} />
+        <Route path='/blog' element={<Summer/>}/>
+      </Route>
+    </Routes>
   );
 }
-
 export default App;

@@ -6,19 +6,22 @@ import Vect4 from './img/Vect4.png'
 import styles from './Best.module.css'
 import { H1, Img } from '../../Page1'
 
+
 export default function Best() {
   return (
     <>
     <div className={styles.Bdiv1}>
+    
         <div>
            <H1 >Best Offers & Online Shopping Sale!</H1>
            <p className={styles.Bp}>Get Deals & Discounts Across 30+ Categories Every Day Only Royallook!</p>
         </div>
-        <button><p>Get More Offers</p></button>
+        <button className={styles.btn}>Get More Offers</button>
     </div>
-    <div>
+    <div className={styles.sumdiv}>
+    <div className={styles.sumdiv1}>
         <h1 className={styles.Bh1}>Why Choose Us?</h1>
-        <Img><span className={styles.sp}></span></Img>
+        <Img><span className={styles.sp}>vsdfdsf</span></Img>
         <div className={styles.Bdiv}>
             <div >
                 <img src={Vect1} alt='vector1'/>
@@ -40,6 +43,7 @@ export default function Best() {
                 <h2>d</h2>
                 <h3>Accessories</h3>
             </div>
+        </div>
         </div>
     </div>
     </>

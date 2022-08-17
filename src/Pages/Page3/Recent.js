@@ -8,6 +8,7 @@ import Flower5 from './img/Flower5.png'
 import Flower6 from './img/Flower6.png'
 import Flower7 from './img/Flower7.png'
 import Flower8 from './img/Flower8.png'
+import Fl from './img/3 593.svg'
 import styles from './Recent.module.css'
 
 export default function Recent() {
@@ -27,8 +28,8 @@ export default function Recent() {
     <RecDiv1>
     <div>
         <RecDiv>
-            <img src={Flower} alt='Flower' className={styles.Im}/>
-            <RecSp></RecSp>
+            <img src={Fl} alt='Flower' className={styles.Im}/>
+            {/* <RecSp></RecSp> */}
         </RecDiv>
         
         <H3>Fastest Delivery</H3>
@@ -89,7 +90,7 @@ export default function Recent() {
         <P3>€105.00</P3>
     </div>
     </RecDiv1>
-     <Img><Bt><P1>All Products</P1></Bt></Img>
+     <Img><Bt >All Products</Bt></Img>
     </>
   )
 }

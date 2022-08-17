@@ -1,9 +1,10 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Group from './img/Group.png'
 import Search from './img/Search.png'
 import Vector from './img/Vector.png'
-import styles from './Index.module.css'
+import styles from './Index.module.css';
+
 
 export default function Header() {
     
@@ -15,11 +16,11 @@ export default function Header() {
         </div>
     <nav>
         <ul>
-        {/* <Link to='/'>Green Plant</Link>
+        <Link to='/'>Green Plant</Link>
         <Link to='/gift'>Gift Plant</Link>
         <Link to='/indoor'>Indoor Plants</Link>
         <Link to='/blog'>Blog</Link>
-        <Link to='/more'>More</Link> */}
+        <Link to='/more'>More</Link>
         <img src={Search} alt='search'/>
         <img src={Vector} alt='vector'/>
         </ul>
