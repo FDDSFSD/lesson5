@@ -45,7 +45,7 @@ export default function Footer() {
        </ul>
        <ul className={styles.ul1}>
          <h1>Join us</h1>
-         <a href="#" className={styles.a}>Get first access to sales 
+         <a href="#" className={styles.cla}>Get first access to sales 
          and new products</a>
          <input  type="email" placeholder='Enter your Email'/>
          <button className={styles.btn}>Submit</button>
