@@ -4,3 +4,10 @@ ul li{
 a{
   text-decoration: none;
 }
+.Best1 {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

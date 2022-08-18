@@ -1,11 +1,15 @@
 import React from 'react'
+import { Sc } from '../../Page1'
 import Left from './img/Left.png'
 import Right from './img/Right.png'
+import ControlledCarousel from './ControlledCarousel';
+import styles from './Controlled.module.css'
 
 export default function Latest() {
   return (
     <>
-    <div>
+    <Sc className={styles.scdiv}>
+    {/* <div>
         <img src={Left} alt='left'/>
         <h1>Latest News</h1>
         <img src={Right} alt='right'/>  
@@ -39,7 +43,10 @@ export default function Latest() {
             <button><p>Read more</p></button>
         </div>
         
-    </section>
+    </section> */}
+    <ControlledCarousel/>
+    </Sc>
+    
     </>
   )
 }

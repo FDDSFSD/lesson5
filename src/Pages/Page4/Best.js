@@ -1,15 +1,20 @@
 import React from 'react'
-import Vect1 from './img/Vect1.png'
+import Vect1 from './img/smile.svg'
 import Vect2 from './img/Vect2.png'
 import Vect3 from './img/Vect3.png'
 import Vect4 from './img/Vect4.png'
 import styles from './Best.module.css'
-import { H1, Img } from '../../Page1'
+import { H1, Img, Sc } from '../../Page1'
+import Best1 from './Best1'
+import Best2 from './Best2'
+import Best3 from './Best3'
+import Best4 from './Best4'
 
 
 export default function Best() {
   return (
     <>
+    <Sc className={styles.scdiv}>
     <div className={styles.Bdiv1}>
     
         <div>
@@ -21,31 +26,32 @@ export default function Best() {
     <div className={styles.sumdiv}>
     <div className={styles.sumdiv1}>
         <h1 className={styles.Bh1}>Why Choose Us?</h1>
-        <Img><span className={styles.sp}>vsdfdsf</span></Img>
+        <Img><span className={styles.sp}></span></Img>
         <div className={styles.Bdiv}>
             <div >
-                <img src={Vect1} alt='vector1'/>
-                <h2>d</h2>
-                <h3>Customer</h3>
+                <img src={Vect1} alt='vector1' className={styles.img}/>
+                <Best1 />
+                <h3 className={styles.sm}>Customer</h3>
             </div>
             <div>
-                <img src={Vect2} alt='vector2'/>
-                <h2>d</h2>
-                <h3> Plants</h3>
+                <img src={Vect2} alt='vector2' className={styles.img}/>
+                <Best2/>
+                <h3 className={styles.sm}> Plants</h3>
             </div>
             <div>
-                <img src={Vect3} alt='vector3'/>
-                <h2>d</h2>
-                <h3>Services</h3>
+                <img src={Vect3} alt='vector3' className={styles.img}/>
+                <Best3/>
+                <h3 className={styles.sm}>Services</h3>
             </div>
             <div>
-                <img src={Vect4} alt='vector4'/>
-                <h2>d</h2>
-                <h3>Accessories</h3>
+                <img src={Vect4} alt='vector4' className={styles.img}/>
+                <Best4/>
+                <h3 className={styles.sm}>Accessories</h3>
             </div>
         </div>
         </div>
     </div>
+    </Sc>
     </>
   )
 }

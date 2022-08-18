@@ -2,6 +2,28 @@
     display: flex;
     justify-content: space-around
 }
+.plantdiv{
+    display: flex;
+    margin-top: 19px;
+    height: 42px;
+}
+.planth{
+    margin-top: 9px;
+}
+.uli{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
 .nv{
-    
+    width: 50%;
+    margin-top: 18px;
+}
+.icondiv{
+    width: 24px;
+    height: 24px;
+    padding: 8px 11px;
+}
+.icondiv2{
+    background-color: #618916;
 }

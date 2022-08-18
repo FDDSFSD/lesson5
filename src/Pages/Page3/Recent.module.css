@@ -1,3 +1,6 @@
+.scdiv{
+    margin-top: 60px;
+}
 .sp{
     width: 96px;
     border: 2px solid #699D06
@@ -8,6 +11,7 @@
 }
 .uli{
    display: flex;
+   gap:30px;
 }
 .dv{
     width: 1600px;
@@ -17,4 +21,13 @@
 .Im{
     width: 350px;
     height: 400px;
+}
+.btn:hover {
+    
+    background-color: rgb(155, 49, 111);
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    height: 21px;
 }

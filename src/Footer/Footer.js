@@ -4,14 +4,17 @@ import Fb from './img/facebook.png'
 import Insta from './img/instagram.png'
 import Link from './img/linkedin.png'
 import styles from './Footer.module.css'
-
+import { ImFacebook} from 'react-icons/im'
+import {FiInstagram} from 'react-icons/fi'
+import {FaLinkedinIn} from 'react-icons/fa'
+import { Sc } from '../Page1'
 export default function Footer() {
   return (
     <> 
-    <section>
+    <Sc className={styles.scdiv}>
        <div className={styles.Fdiv}>
           <img src={Group} alt='group'/>
-          <h1>PlantCity</h1>
+          <h1 className={styles.plh}>PlantCity</h1>
        </div>
     <div className={styles.Ft}>
        <ul>
@@ -43,16 +46,26 @@ export default function Footer() {
         <li>www.plantcity.com</li>
         <li>+374 77 897 564 987</li>
        </ul>
+       <ul className={styles.ul1}>
+         <h1>Join us</h1>
+         <a href="#" className={styles.a}>Get first access to sales 
+         and new products</a>
+         <input  type="email" placeholder='Enter your Email'/>
+         <button className={styles.btn}>Submit</button>
+
+       </ul>
     </div>
     <div className={styles.Fdiv1}>
         <h1>Follow Us</h1>
-        <div>
-            <img src={Fb} alt='fb'/>
-            <img src={Insta} alt='insta'/>
-            <img src={Link} alt='link'/>
+        <div className={styles.fbdiv}>
+          <div className={styles.fb1div}>
+            <a href='https://www.facebook.com/'><ImFacebook className={styles.instadiv}/></a>
+            <a href='https://www.instagram.com/'><FiInstagram className={styles.instadiv}/></a>
+            <a href='https://www.linkedin.com/'><FaLinkedinIn className={styles.instadiv}/></a>
+            </div>
         </div>
     </div>
-    </section>
+    </Sc>
     </>
   )
 }

@@ -1,11 +1,53 @@
 .Ft{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: 74px;
 }
 .Fdiv{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    height: 42px;
+}
+.plh{
+    margin-top: auto;
 }
 .Fdiv1{
     text-align: center;
+    margin-top: 63px;
+}
+.ul1{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 170px;
+}
+.a{
+    color: black;
+}
+.btn{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border: 1px solid #699D06;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.fb1div{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.fbdiv{
+    display: flex;
+    justify-content: center;
+
+}
+.instadiv{
+    width: 44px;
+    height: 44px;
+    color: black;
+}
+.scdiv{
+    margin-top: 60px;
 }

@@ -1,19 +1,23 @@
 import styled from 'styled-components';
 
+export const Sc =styled.section`
+  width:1920px
+`
 export const H1 = styled.h1`
   font-size:50px;
-//   color: #FFFFFF;
+  color: #FFFFFF;
 `
 export const H2 =styled.h2`
   font-size:40px;
-//   color: #FFFFFF;
+  color: #FFFFFF;
 `
 export const Bt=styled.button`
   background: #699D06;
   border-radius: 4px;
   font-size: 20px;
     padding: 14px 28px;
-    color: white
+    color: white;
+  border:none
 `
 export const P1=styled.p`
   font-size: 20px;
@@ -53,11 +57,10 @@ export const RecDiv=styled.div`
 `
 export const RecSp=styled.div`
     width: 100%;
-    border: 2px solid #9C9C9C
+    border: 1px solid #9C9C9C
 `
 export const RecDiv1=styled.div`
-   width: 1600px;
+   width: 100%;
    display: flex;
    justify-content: space-between;
 `
-// gap: 30p
