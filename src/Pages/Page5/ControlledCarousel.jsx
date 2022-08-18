@@ -14,8 +14,9 @@ export default function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+    <Carousel activeIndex={index} onSelect={handleSelect} >
+      <Carousel.Item className={styles.Cardiv}>
+
         <img
           className="d-block w-100"
           src={Left}

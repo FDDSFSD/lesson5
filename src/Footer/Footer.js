@@ -1,8 +1,5 @@
 import React from 'react'
 import Group from './img/Group.png'
-import Fb from './img/facebook.png'
-import Insta from './img/instagram.png'
-import Link from './img/linkedin.png'
 import styles from './Footer.module.css'
 import { ImFacebook} from 'react-icons/im'
 import {FiInstagram} from 'react-icons/fi'
