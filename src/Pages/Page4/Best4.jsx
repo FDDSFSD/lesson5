@@ -23,8 +23,7 @@ export default function Best4() {
         ]}
       ></AnimatedNumbers>
       <div>
-        <button onClick={() => setNum((state) => state + 1)}
-        className={styles.numbtn}>+</button>
+      <h2 className={styles.ph}>+</h2>
        
       </div>
     </div>

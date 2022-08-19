@@ -30,7 +30,7 @@ export default function Recent() {
         </Img>
     </div>
     <RecDiv1>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv>
             <img src={Fl} alt='Flower' className={styles.Im}/>
             <RecSp></RecSp>

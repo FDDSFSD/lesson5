@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Group from './img/Group.png'
-import Search from './img/Search.png'
-import Vector from './img/Vector.png'
 import styles from './Index.module.css';
 import { BsSearch} from 'react-icons/bs'
 import { AiOutlineUser} from 'react-icons/ai'
@@ -21,11 +19,11 @@ export default function Header() {
         </div>
     <nav className={styles.nv}>
         <ul className={styles.uli}>
-        <Link to='/green'>Green Plant</Link>
-        <Link to='/gift'>Gift Plant</Link>
-        <Link to='/indoor'>Indoor Plants</Link>
-        <Link to='/blog'>Blog</Link>
-        <Link to='/more'>More</Link>
+        <Link to='/green' className={styles.linka}>Green Plant</Link>
+        <Link to='/gift' className={styles.linka}>Gift Plant</Link>
+        <Link to='/indoor' className={styles.linka}>Indoor Plants</Link>
+        <Link to='/blog'className={styles.linka}>Blog</Link>
+        <Link to='/more' className={styles.linka}>More</Link>
         <div><BsSearch className={styles.icondiv}/></div>
         <div><AiOutlineUser className={styles.icondiv}/></div> 
         <div className={styles.icondiv2} ><AiOutlineShoppingCart className={styles.icondiv}/></div>

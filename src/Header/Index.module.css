@@ -7,8 +7,12 @@
     margin-top: 19px;
     height: 42px;
 }
+.linka{
+    text-decoration: none;
+    color: black;
+}
 .planth{
-    margin-top: 9px;
+    margin-top: 0;
 }
 .uli{
     width: 100%;
@@ -17,7 +21,7 @@
 }
 .nv{
     width: 50%;
-    margin-top: 18px;
+    margin-top: 30px;
 }
 .icondiv{
     width: 30px;
