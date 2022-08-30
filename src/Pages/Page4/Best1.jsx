@@ -4,7 +4,7 @@ import styles from './Best.module.css'
 
 
 export default function Best1() {
-  const [num, setNum] = React.useState(4863);
+  const num = 4863;
   return (
     <>
     <section className={styles.Best1}>

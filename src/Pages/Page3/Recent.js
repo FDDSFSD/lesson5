@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bt, H3, Img, P1, P3, RecDiv, RecDiv1, RecSp, Sc, Sp1 } from '../../Page1'
+import { Bt, H3, Img, P3, RecDiv, RecDiv1, RecSp, Sc, Sp1 } from '../../Page1'
 import Flower2 from './img/Flower2.png'
 import Flower3 from './img/Flower3.png'
 import Flower4 from './img/Flower4.png'
@@ -9,7 +9,6 @@ import Flower7 from './img/Flower7.png'
 import Flower8 from './img/Flower8.png'
 import Fl from './img/3 593.svg'
 import styles from './Recent.module.css'
-import Rating from './BasicRating'
 import BasicRating from './BasicRating'
 
 

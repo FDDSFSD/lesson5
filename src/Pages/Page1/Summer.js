@@ -1,6 +1,5 @@
 import React from 'react'
 import { Bt, H1, H2,Sc } from '../../Page1';
-import Mask from './img/Mask.jpg';
 import styles from './Summer.module.css'
 
 export default function Summer() {
