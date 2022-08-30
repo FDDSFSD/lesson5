@@ -30,3 +30,8 @@
     
     background-color: rgb(155, 49, 111);
 }
+@media only screen and (max-width: 600px){
+    .scdiv{
+        display: none;
+    }
+  }

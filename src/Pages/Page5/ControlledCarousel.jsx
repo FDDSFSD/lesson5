@@ -22,14 +22,13 @@ export default function ControlledCarousel() {
           src={Left}
           alt="First slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption >
         <div className={styles.condiv}>
             <div>
                 <h1>21, June, 2019</h1>
             </div>
-            <p>Suspendisse posuere, 
-            diam in bibendum lobortis, turpis ipsum aliquam risus,
-            sit amet ...</p>
+            <p>Suspendisse posuere,diam in bibendum lobortis,
+            turpis ipsum aliquam risus,sit amet ...</p>
             <button><p>Read more</p></button>
         </div>
         </Carousel.Caption>

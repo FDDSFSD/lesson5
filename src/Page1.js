@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Sc =styled.section`
-  width:1920px
+  width:100%
 `
 export const H1 = styled.h1`
   font-size:50px;
@@ -17,7 +17,10 @@ export const Bt=styled.button`
   font-size: 20px;
     padding: 14px 28px;
     color: white;
-  border:none
+  border:none;
+  @media only screen and (max-width: 600px){
+    font-size:10px
+  }
 `
 export const P1=styled.p`
   font-size: 20px;
@@ -51,16 +54,21 @@ export const Sp1=styled.span`
   text-decoration-line: line-through;
 `
 export const RecDiv=styled.div`
-   width: 386px;
-   height: 423px;
+   width: 100%;
+  //  height: 423px;
    
 `
 export const RecSp=styled.div`
-    width: 100%;
+    width: 80%;
+    margin-left: 23px;
     border: 1px solid #9C9C9C
 `
 export const RecDiv1=styled.div`
    width: 100%;
    display: flex;
    justify-content: space-between;
+   @media only screen and (max-width: 600px){
+    display:flex;
+    flex-wrap:wrap
+  }
 `

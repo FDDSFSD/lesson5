@@ -25,9 +25,13 @@
 }
 .icondiv{
     width: 30px;
-    height: 30px;
-    
+    height: 30px;  
 }
+@media only screen and (max-width: 600px){
+    .icondiv{
+        display: none;
+    }
+  }
 .icondiv2{
     background-color: #618916;
 

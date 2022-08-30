@@ -18,7 +18,8 @@ export default function Recent() {
   return (
     <>
     <Sc className={styles.scdiv}>
-    <div>
+    <h1 className={styles.rec1}>Recent Arrival</h1>
+    <div className={styles.rec2}>
         <h1 className={styles.rec}>Recent Arrival</h1>
         <Img><span className={styles.sp}></span></Img>
         <Img>
@@ -40,7 +41,7 @@ export default function Recent() {
         <H3>Fastest Delivery</H3>
         <P3><Sp1>€104.86</Sp1> €83.89</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower2} alt='Flower2' className={styles.Im}/>
         <RecSp></RecSp>
         </RecDiv>
@@ -48,14 +49,14 @@ export default function Recent() {
         <H3>Exercitat Virginia</H3>
         <P3>€87.00</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower3} alt='Flower3' className={styles.Im}/>
         <RecSp></RecSp></RecDiv>
         <BasicRating/>
         <H3>Accusantium Doloremque</H3>
         <P3>€110.00</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower4} alt='Flower4' className={styles.Im}/>
         <RecSp></RecSp></RecDiv>
         <BasicRating/>
@@ -64,7 +65,7 @@ export default function Recent() {
     </div>
     </RecDiv1>
     <RecDiv1>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower5} alt='Flower5' className={styles.Im}/>
         <RecSp></RecSp>
         </RecDiv>
@@ -72,21 +73,21 @@ export default function Recent() {
         <H3>Nostrud Exercitation</H3>
         <P3><Sp1>€104.86</Sp1> €83.89</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower6} alt='Flower6' className={styles.Im}/>
         <RecSp></RecSp></RecDiv>
         <BasicRating/>
         <H3>Commodi Consequatur</H3>
         <P3>€85.00</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower7} alt='Flower7' className={styles.Im}/>
         <RecSp></RecSp></RecDiv>
         <BasicRating/>
         <H3>Praesentium Voluptatum</H3>
         <P3><Sp1>€104.86</Sp1> €83.89</P3>
     </div>
-    <div>
+    <div className={styles.stldiv}>
         <RecDiv><img src={Flower8} alt='Flower8' className={styles.Im}/>
         <RecSp></RecSp>
         </RecDiv>

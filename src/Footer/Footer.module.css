@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-top: 74px;
 }
+
 .Fdiv{
     display: flex;
     justify-content: center;
@@ -39,7 +40,8 @@
     width: 12%;
     display: flex;
     justify-content: space-between;
-}
+} 
+
 .fbdiv{
     display: flex;
     justify-content: center;
@@ -53,3 +55,12 @@
 .scdiv{
     margin-top: 60px;
 }
+@media only screen and (max-width: 600px){
+    .Ft {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fb1div{
+        display: contents;
+    }
+  }

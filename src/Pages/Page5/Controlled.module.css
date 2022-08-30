@@ -1,11 +1,22 @@
 .condiv{
-    height: 600px;
     color:white;
+   height: 400px;
+
 }
 .scdiv{
     margin-top: 60px;
 }
 .Cardiv{
-    height: 1000px;
+    height: 600px;
     width: 100%;
+    position: relative;
+ }
+ @media only screen and (max-width: 600px){
+    .condiv{
+        height: 50%;
+    
+    }
+    .Cardiv{
+        height: 400px;
+    }
  }
