@@ -13,6 +13,7 @@ export default function Best1() {
         includeComma
         animateToNumber={num}
         fontStyle={{ fontSize: 40 }}
+        className={"Animation"}
         configs={[
           { mass: 1, tension: 220, friction: 100 },
           { mass: 1, tension: 180, friction: 130 },

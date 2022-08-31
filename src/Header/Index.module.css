@@ -1,32 +1,107 @@
 .Id{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+  
+}
+
+.container{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    cursor:pointer;
+    position: absolute;
+    right: 0;
+    top:40px;
+    display:none;
+    
 }
 .plantdiv{
     display: flex;
     margin-top: 19px;
     height: 42px;
+    ;
 }
 .linka{
     text-decoration: none;
     color: black;
+    margin: 0 15px;
 }
 .planth{
     margin-top: 0;
 }
 .uli{
-    width: 100%;
     display: flex;
-    justify-content: space-evenly
+   width: 80%;
+   flex-wrap: wrap;
 }
 .nv{
-    width: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
     margin-top: 30px;
+  
 }
 .icondiv{
     width: 30px;
     height: 30px;  
 }
+
+.iconsContainer{
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 899px){
+    .btn{
+        display: block;
+    }
+
+   .nv{
+    width:100%;
+    display: none;
+   }
+
+   .active{
+    display: block;
+   }
+
+   .uli{
+
+    width: 100%;
+   }
+
+   .minContainer{
+    width:100%;
+
+}
+
+.iconsContainer{
+    margin:20px auto;
+}
+   .linka{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+   }
+
+ 
+    
+  }
+
+
+
+
 @media only screen and (max-width: 600px){
     .icondiv{
         display: none;
